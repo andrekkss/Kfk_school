@@ -1,0 +1,15 @@
+{
+  "name": "kfk_school",
+  "version": "1.0.0",
+  "description": "Sistema de integração escolar com kafka",
+  "main": "index.js",
+  "dependencies": {
+    "no-kafka": "^3.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "André Kitano da Silva",
+  "license": "ISC"
+}
