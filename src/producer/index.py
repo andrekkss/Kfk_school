@@ -11,4 +11,4 @@ producer = KafkaProducer(bootstrap_servers='localhost:9092',
 # Call the producer.send method with a producer-record
 print("Ctrl+c to Stop")
 while True:
-    producer.send('testing', random.randint(1,10))
+    producer.send('testing2', random.randint(1,10))

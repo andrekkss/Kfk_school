@@ -4,11 +4,13 @@
   "description": "Sistema de integração escolar com kafka",
   "main": "index.js",
   "dependencies": {
-    "no-kafka": "^3.4.3"
+    "no-kafka": "^3.4.3",
+    "nodemon": "^1.18.9"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/consumer/consume.js"
   },
   "author": "André Kitano da Silva",
   "license": "ISC"
