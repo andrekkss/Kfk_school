@@ -6,9 +6,10 @@ from datetime import datetime
 
 # Create an instance of the Kafka producer
 producer = KafkaProducer(bootstrap_servers='localhost:9092',
-                            value_serializer=lambda v: str(v).encode('utf-8'))
+                            value_serializer=lambda v: json.dumps(v).encode('utf-8'))
+
+# producer = KafkaProducer(value_serializer=lambda v: json.dumps(v).encode('utf-8'))
+# producer.send('fizzbuzz', {'foo': 'bar'})
 
 # Call the producer.send method with a producer-record
-print("Ctrl+c to Stop")
-while True:
-    producer.send('testing2', random.randint(1,10))
+producer.send('sala2', {'sadas': 'bar'})
