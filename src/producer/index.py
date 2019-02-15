@@ -12,4 +12,5 @@ producer = KafkaProducer(bootstrap_servers='localhost:9092',
 # producer.send('fizzbuzz', {'foo': 'bar'})
 
 # Call the producer.send method with a producer-record
-producer.send('sala2', {'sadas': 'bar'})
+while True:
+    producer.send('sala2', {'sadas': 'bar'})
