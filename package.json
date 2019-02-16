@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "no-kafka": "^3.4.3",
+    "brain.js": "^1.2.6",
     "nodemon": "^1.18.9"
   },
   "devDependencies": {},
